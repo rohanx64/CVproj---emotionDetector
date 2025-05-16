@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow only the files you want to keep
+!keras_1.h5
+!keras_2.h5
+!keras_final.h5
+!kerasbars.py
+!kerasbox.py
+!kerasTraining-1.ipynb
+!kerasTraining-augmented.ipynb
+!kerasTraining-newCNN.ipynb
+!model.py
+!pytorch_final.pt
+!pytorchbars.py
+!pytorchbox.py
+!torchTraining-resnet.ipynb
+
+# Ensure this file is also tracked
+!.gitignore
