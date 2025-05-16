@@ -1,0 +1,19 @@
+# === Core ML Libraries ===
+torch>=1.13.0
+torchvision>=0.14.0
+tensorflow>=2.9.0   # for keras-based emotion models
+
+# === Image Processing ===
+opencv-python
+numpy
+Pillow  # used internally by torchvision transforms
+
+# === Training & Progress ===
+tqdm
+
+# === Optional: Only if you're using Jupyter Notebooks ===
+notebook
+matplotlib
+
+# === For Keras Model Compatibility ===
+h5py  # for loading/saving .h5 models
